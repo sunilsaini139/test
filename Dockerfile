@@ -14,7 +14,7 @@ WORKDIR /opt
 
 RUN unzip *.zip && \
       rm *.zip && \
-      cp -r oxer*/* /var/www/html/
+      cp -r photo*/* /var/www/html/
 
 WORKDIR  /var/www/html
 
